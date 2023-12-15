@@ -1,0 +1,104 @@
+Access modifiers
+Class members : Fields, Methods, Constructors, classes
+Access modifiers : public, private, protected, default
+Helps encapsulate 
+The only way to get access to private is by two methods
+Private is the most restrictive
+
+Modified controls the accecibility
+protected is accesible in the same class also works as members
+Instans of the class
+A class blueprint contein objects
+Object instant of the class
+not need instant to call it in the class
+static is not associed with whatever object in the class can't modify any element in the class
+can't access static contex from a static contex
+easier to mantenience
+static means below to the class no the instance
+The furthest that class members access modifier can be accesses from a class in another package
+Can access to the private class using a public getter and setters that has been set in a class one
+Private class access modifier can be accessed from within its class
+Different name for the default access modifier -> package-private access modifier
+Default is more restrictive than protected
+Static method do not require an instance of the object
+String class in java is a mutable class
+String can be created by using the string literal
+Formating and passing
+Formating a dat means conver a date to a string
+
+Opp:
+object that containg data can be manipulate
+
+a constructor does not have a return type
+constructor starts with uppercaseletter if would'd had a return would have been a method
+new is to create an object 
+Student("john",20) this is the contructor
+all java clases have a constructor if don't have java creates one. This process calls default constructor. Default constructor doesn't take any arguments
+the constructor will be added by its self if don't add it
+When create a constructor in the class it means a custom constructor
+The custom constructor is a typecal that doesn't take arguments
+classes can have more than one constructor
+super() this is to call another constructors
+this() this calls another constructor in the same class
+java adds super() when is not constructor call explicity
+Constructors are not inherited
+calls the constrcutor from the parent class
+main porpuse of the constructor is inicialize and object
+new object create calls the constructor
+the constructor in the child class calls the constructor from the parents class
+custom constrcutor must have the same name
+super() in a constructor calls the superclass
+constrcutor are not inherited by superclases
+when and object is created is called the constructor
+constructors are not inherited by subclases
+
+Enums = Type safety, more redable, Memory optimization
+There are methos for Enums(toString(), ordinal(), values())
+Enums = Are classes in java
+Extens is not for enums
+Each contents in the enums is extention of the class
+
+Enums = define a set of constants
+Values = automaticly method provided for every enum
+Using for loop and values() method can interact over enums
+toString() = method implicitle overriden in every java enum
+
+
+A default method has a default inplementation in the interface
+private method only accesible in the class
+AbstractClases can be instancied directly
+
+Abstract method don't have body
+Abstract classes can't be estanciate
+When the class is final can't be extended to other classes
+When method final can't be overriden on the child class
+
+Effctively final the variable not maked as final, but the code would still compile
+Primary use case for interfaces = implementing multiple inheritance
+Inteface private and static method can have implementation
+interfaces = can't have fild abstract class can
+Final keywoord applied to a method mean = the method can not be overriden in subclasses
+The abstract method must be implemented by any concret subclass
+Interfaces access modifiers applyed to public
+The case for the final key is to prevent a class from having subclases
+The method can be overriden in a subclass
+
+The generic can be replaced by any datatype except 
+There are four interfaces collections  list, set, queue, Map
+set = core interface in a collection framewoork is used to store a set of elements where each element is unique
+list = contain duplique items
+set = can't contain duplicate items
+
+The map interface is made for storing key-value pairs instead sigle values
+
+<> this is a generic is to specific a type
+
+Generics = To provide type safety
+List = allow duplicate
+List interface = LinkedList
+set = doesn't allow duplicate
+treeset = 
+queue = this collection handling collection of data in the order they were entered
+ArrayQueue = this is to implement queue
+map = doesn't extent collection interface
+hasnMap
