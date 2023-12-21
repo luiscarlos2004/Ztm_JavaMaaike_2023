@@ -102,3 +102,18 @@ queue = this collection handling collection of data in the order they were enter
 ArrayQueue = this is to implement queue
 map = doesn't extent collection interface
 hasnMap
+
+
+exceptions when something goes wrong
+problem occurs java thrown
+There are two options (method signature / protocol)
+Throw and exception 
+
+checked = java compiler require handly(try/catch)
+unchecked = compiler doesn't require handling(it means the code need fixing)
+
+Declare resources in the try(they are closed after the try)
+
+exception = runtime error unexpected condition
+type of exception  = NullPointException this is an example of unchecked exception
+Checked exceptions = to be declared in the method signature
